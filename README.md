@@ -1,4 +1,7 @@
 # Project: Domino's Pizza Sales Dashboard Analysis
+![Pizza1](https://github.com/user-attachments/assets/b684345b-3b9b-4b31-afcf-e09bc5c7dd19)
+![Pizza 2](https://github.com/user-attachments/assets/31f00d65-6e15-4239-8064-3ebb673daddd)
+
 Project Overview
 This project involves the analysis of a Domino's Pizza sales dataset to uncover key business insights and performance metrics. The goal was to translate raw sales data into an interactive dashboard (represented in this PDF) that highlights sales trends, customer ordering behavior, and product performance. This analysis aids in strategic decision-making for inventory management, marketing, and menu optimization.
 
