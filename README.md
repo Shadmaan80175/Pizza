@@ -64,3 +64,91 @@ Highlight best-selling pizzas on the menu and in promotional materials.
 Evaluate whether the worst-performing pizzas should be retained, re-branded, or removed from the menu to simplify operations.
 
 • Staffing: Schedule more staff during weekend evenings and the peak summer months (May, July) to handle the increased order volume efficiently.
+
+SQL Analysis Structure
+A. Key Performance Indicators (KPIs)
+sql
+-- Total Revenue, Average Order Value, Total Pizzas Sold
+-- Total Orders, Average Pizzas Per Order
+B. Trend Analysis
+Daily Trends: Order patterns by day of week
+
+Monthly Trends: Seasonal performance analysis
+
+C. Product Performance
+Sales by Category: Revenue distribution across pizza types
+
+Sales by Size: Performance analysis by pizza size
+
+Quantity by Category: Volume analysis per category
+
+D. Best & Worst Performers
+Top/Bottom 5 by Revenue
+
+Top/Bottom 5 by Quantity
+
+Top/Bottom 5 by Total Orders
+
+🔍 Key SQL Insights
+Business Metrics
+Total Revenue: $873,803.20
+
+Average Order Value: $40.93
+
+Total Pizzas Sold: 52,979
+
+Total Orders: 21,350
+
+Average Pizzas Per Order: 2.48
+
+Performance Trends
+Peak Days: Friday/Saturday evenings
+
+Peak Months: May and July
+
+Top Category: Classic pizzas (45.9% of revenue)
+
+Top Size: Large pizzas
+
+Product Analysis
+Revenue Leader: Thai Chicken Pizza
+
+Volume Leader: Classic Deluxe Pizza (quantity & orders)
+
+Underperformer: Brie Carre Pizza (across all metrics)
+
+📈 Business Impact
+Operational Insights
+Inventory Management: Focus on Classic category and Large size ingredients
+
+Staff Scheduling: Increase capacity during weekends and summer months
+
+Menu Optimization: Identify underperforming products for review
+
+Strategic Decisions Supported
+Product performance tracking
+
+Seasonal demand forecasting
+
+Menu optimization and pricing strategies
+
+Marketing campaign targeting
+
+🚀 Technical Achievements
+SQL Expertise Demonstrated
+Complex aggregations and calculations
+
+Date/time manipulation functions
+
+Advanced filtering and sorting
+
+Subqueries for percentage calculations
+
+Data type conversions and formatting
+
+Data Processing Capabilities
+sql
+-- Example of complex calculation:
+CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / 
+CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2))
+AS Avg_Pizzas_per_order
